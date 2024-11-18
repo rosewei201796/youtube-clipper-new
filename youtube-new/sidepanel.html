@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 100%;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    .clip-item {
+      border: 1px solid #ddd;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 4px;
+    }
+    .clip-title {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .clip-summary {
+      color: #666;
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+    .clip-controls {
+      display: flex;
+      gap: 10px;
+    }
+    button {
+      padding: 5px 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .play-btn {
+      background: #4CAF50;
+      color: white;
+    }
+    .download-btn {
+      background: #2196F3;
+      color: white;
+    }
+    .edit-btn {
+      background: #FFC107;
+    }
+  </style>
+</head>
+<body>
+  <h2>已保存的视频片段</h2>
+  <div id="clips-container"></div>
+  <script src="sidepanel.js"></script>
+</body>
+</html> 
